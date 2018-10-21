@@ -1,6 +1,6 @@
 package io.github.espresso4j.servleto;
 
-import io.github.espresso4j.Request;
+import io.github.espresso4j.espresso.Request;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
@@ -13,13 +13,13 @@ public class ServletRequestFactory {
         Request request = new Request();
 
         // scheme
-        request.setScheme(Request.Scheme.valueOf(servletRequest.getScheme()));
+        request.setScheme(Request.Scheme.from(servletRequest.getScheme()));
 
         // protocol
         request.setProtcol(servletRequest.getProtocol());
 
         // method
-        request.setRequestMethod(Request.Method.valueOf(servletRequest.getMethod()));
+        request.setRequestMethod(Request.Method.from(servletRequest.getMethod()));
 
         // request uri
         request.setUri(servletRequest.getRequestURI());

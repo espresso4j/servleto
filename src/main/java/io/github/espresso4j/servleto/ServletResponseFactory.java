@@ -1,6 +1,6 @@
 package io.github.espresso4j.servleto;
 
-import io.github.espresso4j.Response;
+import io.github.espresso4j.espresso.Response;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;

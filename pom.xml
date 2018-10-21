@@ -7,7 +7,7 @@
   <artifactId>servleto</artifactId>
   <version>0.1.0-SNAPSHOT</version>
 
-  <name>espresso</name>
+  <name>servleto</name>
   <url>https://github.com/espresso4j/servleto</url>
   <description>Servlet API bridged to Espresso</description>
 
