@@ -11,13 +11,13 @@ public class ServletResponseFactory {
             throws IOException {
 
         // status
-        servletResponse.setStatus(response.getStatus());
+        servletResponse.setStatus(response.status());
 
         // header
-        response.getHeaders().forEach(servletResponse::addHeader);
+        response.headers().forEach(servletResponse::addHeader);
 
-        if (response.getBody() != null) {
-            response.getBody().into(servletResponse.getOutputStream());
+        if (response.body() != null) {
+            response.body().into(servletResponse.getOutputStream());
         }
 
     }
