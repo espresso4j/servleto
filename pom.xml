@@ -5,7 +5,7 @@
 
   <groupId>io.github.espresso4j</groupId>
   <artifactId>servleto</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.1.1</version>
 
   <name>servleto</name>
   <url>https://github.com/espresso4j/servleto</url>
@@ -29,7 +29,7 @@
     <url>https://github.com/espresso4j/servleto</url>
     <connection>scm:git:git@github.com:espresso4j/servleto.git</connection>
     <developerConnection>scm:git:git@github.com:espresso4j/servleto.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>servleto-0.1.1</tag>
   </scm>
 
   <properties>
